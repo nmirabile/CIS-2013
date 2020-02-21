@@ -13,28 +13,32 @@ floatMidPts = parseFloat(prompt("Please enter final Midterm pts (0-35):"));
 floatFinPts = parseFloat(prompt("Please enter Final Exam pts (0-35):"));
 floatTotalPts = parseFloat(prompt("Please enter final Total pts (0-100):"));
 
-floatMidPts = 35
-
-floatFinPts = 35
-
-floatTotalPts = parseFloat(100);
+floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinalPts);
 
 intGradeOption = prompt("Enter 1 for A-F scale or enter 2 for pass fail course);
 
-if (intGradeOption===1)
-{
-    if(floatTotalPts >= 90)
+if (intGradeOption===1){
+    if(floatTotalPts >= 90){
         alert("You got an A, great job!");
-    if(floatTotalPts >= 80 && floatTotalPts < 90)
+    }
+    if(floatTotalPts >= 80 && floatTotalPts < 90){
         alert("You got a B, push for an A next time!;
-    if(floatTotalPts >= 70 && floatTotalPts < 80)
+    }
+    if(floatTotalPts >= 70 && floatTotalPts < 80){
         alert("You got a C, try harder next time!);
-    if(floatTotalPts >= 60 && floatTotalPts < 70)
+    }
+    if(floatTotalPts >= 60 && floatTotalPts < 70){
         alert("You got a D, you failed);
-    if(floatTotalPts < 60)
+    }
+    if(floatTotalPts < 60){
         alert("You got a F, pyou failed);
-if (intGradeOption===2)
-    if(floatTotalPts >= 80)
+    }
+    }
+if (intGradeOption===2){
+    if(floatTotalPts >= 80){
         alert("You passed!");
-    else
+    }
+    else{
         alert("You failed");
+    }
+}

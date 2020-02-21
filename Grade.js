@@ -15,7 +15,7 @@ floatTotalPts = parseFloat(prompt("Please enter final Total pts (0-100):"));
 
 floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinalPts);
 
-intGradeOption = prompt("Enter 1 for A-F scale or enter 2 for pass fail course);
+intGradeOption = prompt("Enter 1 for A-F scale or enter 2 for pass fail course");
 
 if (intGradeOption===1){
     if(floatTotalPts >= 90){

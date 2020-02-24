@@ -31,7 +31,7 @@ if (intGradeOption===1){
         alert("You got a D, you failed);
     }
     if(floatTotalPts < 60){
-        alert("You got a F, pyou failed);
+        alert("You got a F, you failed);
     }
     }
 if (intGradeOption===2){

@@ -25,13 +25,13 @@ if (intGradeOption===1){
         alert("You got a B, push for an A next time!");
     }
     if(floatTotalPts >= 70 && floatTotalPts < 80){
-        alert("You got a C, try harder next time!);
+        alert("You got a C, try harder next time!");
     }
     if(floatTotalPts >= 60 && floatTotalPts < 70){
-        alert("You got a D, you failed);
+        alert("You got a D, you failed");
     }
     if(floatTotalPts < 60){
-        alert("You got a F, you failed);
+        alert("You got a F, you failed");
     }
     }
 if (intGradeOption===2){

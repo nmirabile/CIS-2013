@@ -11,7 +11,7 @@ var intGradeOption, floatTotalPts, floatHwPts, floatMidPts, floatFinPts;
 floatHwPts = parseFloat(prompt("Please enter final HW pts (0-30):"));
 floatMidPts = parseFloat(prompt("Please enter final Midterm pts (0-35):"));
 floatFinPts = parseFloat(prompt("Please enter Final Exam pts (0-35):"));
-floatTotalPts = parseFloat(prompt("Please enter final Total pts (0-100):"));
+
 
 floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinalPts);
 

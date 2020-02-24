@@ -22,7 +22,7 @@ if (intGradeOption===1){
         alert("You got an A, great job!");
     }
     if(floatTotalPts >= 80 && floatTotalPts < 90){
-        alert("You got a B, push for an A next time!;
+        alert("You got a B, push for an A next time!");
     }
     if(floatTotalPts >= 70 && floatTotalPts < 80){
         alert("You got a C, try harder next time!);

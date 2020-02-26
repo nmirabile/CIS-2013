@@ -11,7 +11,7 @@ var intGradeOption, floatTotalPts, floatHwPts, floatMidPts, floatFinPts;
 floatHwPts = parseFloat(prompt("Please enter final HW pts (0-30):"));
 floatMidPts = parseFloat(prompt("Please enter final Midterm pts (0-35):"));
 floatFinPts = parseFloat(prompt("Please enter Final Exam pts (0-35):"));
-floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinalPts);
+floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinPts);
 
 intGradeOption = parseint(prompt("Enter 1 for A-F scale or enter 2 for pass fail course"));
 
